@@ -1,19 +1,16 @@
 <?php 
 // includes for funtioncs, classes, libraries
-
+include_once 'functions.php';
 require_once 'dbconnect.inc.php';
 
 // controller logic
+session_start();
 $currentPage = "edit";
 
 if(!isset($_GET['id'])){
 	header("Location: index.php");
 	exit();
 }
-
-
-
-
 
 $id = $_GET['id'];
 
@@ -22,14 +19,12 @@ $sql = "select id, name, synopsis, picture, trailer from movies2013 where id='$i
 $result = mysql_query($sql);
 // mysql_num_rows($result)
 
-
 $row = mysql_fetch_assoc($result); 
 
-
-
 // View (OUTPUT STARTS HERE)
-
 include_once 'top.inc.php';
+if (isset($_SESSION['msg'])) showMessage($_SESSION['msg']);
+
 ?>
 <div id="all-column" >	
 	<div id="tbox1">
@@ -50,7 +45,7 @@ include_once 'top.inc.php';
 					</p>
 					<p>
 						<label>Trailer Youtube link:</label>
-						<input type="url" name="trailer" value="<?php echo $row['trailer']; ?>" id="trailer" maxlength="300" size="55"/>
+						<input type="url" name="trailer" value="<?php echo htmlspecialchars($row['trailer']); ?>" id="trailer" maxlength="300" size="55"/>
 					</p>
 					<p>
 						<label>Select Picture:</label>

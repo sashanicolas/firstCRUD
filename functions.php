@@ -6,12 +6,12 @@
  * Time: 3:41 PM
  */
 
-$DEBUG = 1;
+$DEBUG = 0;
 
 function printDebug($string) {
     global $DEBUG;
     if ($DEBUG) {
-        echo $string;
+        echo "<br>".$string."<br>";
     }
 }
 function redirect($url){
@@ -28,7 +28,14 @@ function redirect($url){
         echo "<a href=\"";
         echo htmlspecialchars($url); //ensure escaping!
         echo "\">$url</a>";
-        exit;
     }
-
+    exit;
+}
+function showMessage($msg){
+    if (isset($msg)) {
+        echo '<div id="msg">';
+        echo htmlspecialchars($msg);
+        echo '</div>';
+        unset($_SESSION['msg']);
+    }
 }
