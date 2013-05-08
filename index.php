@@ -3,6 +3,7 @@
 include_once 'functions.php';
 require_once 'dbconnect.inc.php';
 
+setcookie('test','testing cookies');
 // controller logic
 $currentPage = "home";
 session_start();

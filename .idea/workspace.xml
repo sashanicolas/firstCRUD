@@ -4,12 +4,12 @@
     <list default="true" id="55b90b03-1b5a-4c52-81a3-32edc327db09" name="Default" comment="" />
     <ignored path="firstCRUD.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368029203672" ignored="false" />
+    <file path="/index.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368050177808" ignored="false" />
     <file path="/addDo.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368044782206" ignored="false" />
     <file path="db-console:/a1fee9df/195a46e3-f18a-4e47-a79e-23e3d15f5baf/" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1367956600543" ignored="false" />
     <file path="/a.dummy" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1367958570636" ignored="false" />
     <file path="/dbconnect.inc.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1367959084761" ignored="false" />
-    <file path="/deleteDo.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1367960199411" ignored="false" />
+    <file path="/deleteDo.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368049572043" ignored="false" />
     <file path="/all.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368040488646" ignored="false" />
     <file path="/style.css" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1367961173659" ignored="false" />
     <file path="$PROJECT_DIR$/../trainingCss/layout.css" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1367964181344" ignored="false" />
@@ -18,10 +18,11 @@
     <file path="/index.html" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1367964030501" ignored="false" />
     <file path="/Dummy.txt" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368024508538" ignored="false" />
     <file path="$PROJECT_DIR$/../gitTests/index.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368025187776" ignored="false" />
-    <file path="/add.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368044924973" ignored="false" />
+    <file path="/add.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368050267002" ignored="false" />
     <file path="/functions.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368043910862" ignored="false" />
     <file path="/edit.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368041651677" ignored="false" />
-    <file path="/editDo.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368044383388" ignored="false" />
+    <file path="/editDo.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368047393677" ignored="false" />
+    <file path="/test.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368049225068" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +47,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="27" selection-start="353" selection-end="353" vertical-scroll-proportion="0.2870929">
+              <folding>
+                <marker date="1368050234379" expanded="true" signature="223:264" placeholder="select * fro..movies2013..." />
+                <marker date="1368050234379" expanded="true" signature="497:763" placeholder="..." />
+                <marker date="1368050234379" expanded="true" signature="613:763" placeholder="..." />
+                <marker date="1368050234379" expanded="true" signature="669:763" placeholder="..." />
+                <marker date="1368050234379" expanded="true" signature="696:763" placeholder="..." />
+                <marker date="1368050234379" expanded="true" signature="722:763" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deleteDo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deleteDo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="1" selection-start="719" selection-end="719" vertical-scroll-proportion="-18.961538">
+              <folding>
+                <marker date="1368049604154" expanded="true" signature="532:575" placeholder="SELECT * FRO..movies2013..." />
+                <marker date="1368049604154" expanded="true" signature="728:767" placeholder="delete from ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editDo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/editDo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="36" selection-start="404" selection-end="404" vertical-scroll-proportion="-7.8461537">
+              <folding>
+                <marker date="1368049918169" expanded="true" signature="582:623" placeholder="select * fro..movies2013..." />
+                <marker date="1368049918169" expanded="true" signature="2101:2223" placeholder="UPDATE movie..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="23" selection-start="908" selection-end="917" vertical-scroll-proportion="-24.846153">
+              <folding>
+                <element signature="e#6#108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/add.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="22" selection-start="703" selection-end="703" vertical-scroll-proportion="-10.461538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="addDo.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addDo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="1" selection-start="571" selection-end="571" vertical-scroll-proportion="-11.115385">
+            <state line="43" column="16" selection-start="1686" selection-end="1686" vertical-scroll-proportion="-8.346154">
               <folding>
                 <marker date="1368044808245" expanded="true" signature="2080:2182" placeholder="INSERT INTO ..." />
               </folding>
@@ -57,13 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editDo.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/editDo.php">
+      <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="21" selection-start="184" selection-end="186" vertical-scroll-proportion="-0.37394452">
-              <folding>
-                <marker date="1368044556754" expanded="true" signature="1664:1786" placeholder="UPDATE movie..." />
-              </folding>
+            <state line="2" column="2" selection-start="15" selection-end="15" vertical-scroll-proportion="-1.3076923">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,12 +141,13 @@
         <option value="$PROJECT_DIR$/dbconnect.inc.php" />
         <option value="$PROJECT_DIR$/top.inc.php" />
         <option value="$PROJECT_DIR$/inc/top.inc.php" />
-        <option value="$PROJECT_DIR$/deleteDo.php" />
         <option value="$PROJECT_DIR$/all.php" />
         <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/edit.php" />
-        <option value="$PROJECT_DIR$/editDo.php" />
         <option value="$PROJECT_DIR$/addDo.php" />
+        <option value="$PROJECT_DIR$/edit.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/deleteDo.php" />
+        <option value="$PROJECT_DIR$/editDo.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/add.php" />
       </list>
@@ -240,7 +300,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1040" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -325,11 +385,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../apps/phpmyadmin3.5.1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../apps/phpmyadmin3.5.1/db_structure.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="823" selection-end="823" vertical-scroll-proportion="0.42767295" />
@@ -398,52 +453,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deleteDo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="10" selection-start="134" selection-end="134" vertical-scroll-proportion="0.123039804">
-          <folding>
-            <marker date="1368042808000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="102" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.6666667">
+        <state line="38" column="2" selection-start="933" selection-end="933" vertical-scroll-proportion="0.7916667">
           <folding>
-            <marker date="1368044481119" expanded="true" signature="-1:-1" placeholder="select id, n..movies2013..." />
+            <marker date="1368047784017" expanded="true" signature="-1:-1" placeholder="select * fro..movies2013..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
+    <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="36" selection-start="870" selection-end="870" vertical-scroll-proportion="0.7382389">
-          <folding>
-            <element signature="e#6#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="217" selection-end="217" vertical-scroll-proportion="0.20833333">
+        <state line="2" column="2" selection-start="15" selection-end="15" vertical-scroll-proportion="-1.3076923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/deleteDo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.22557297">
+        <state line="29" column="1" selection-start="719" selection-end="719" vertical-scroll-proportion="-18.961538">
           <folding>
-            <marker date="1368044855640" expanded="true" signature="-1:-1" placeholder="select * fro..movies2013..." />
+            <marker date="1368049604154" expanded="true" signature="532:575" placeholder="SELECT * FRO..movies2013..." />
+            <marker date="1368049604154" expanded="true" signature="728:767" placeholder="delete from ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addDo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="571" selection-end="571" vertical-scroll-proportion="-11.115385">
+        <state line="43" column="16" selection-start="1686" selection-end="1686" vertical-scroll-proportion="-8.346154">
           <folding>
             <marker date="1368044808245" expanded="true" signature="2080:2182" placeholder="INSERT INTO ..." />
           </folding>
@@ -452,9 +490,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/editDo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="184" selection-end="186" vertical-scroll-proportion="-0.37394452">
+        <state line="18" column="36" selection-start="404" selection-end="404" vertical-scroll-proportion="-7.8461537">
           <folding>
-            <marker date="1368044556754" expanded="true" signature="1664:1786" placeholder="UPDATE movie..." />
+            <marker date="1368049918169" expanded="true" signature="582:623" placeholder="select * fro..movies2013..." />
+            <marker date="1368049918169" expanded="true" signature="2101:2223" placeholder="UPDATE movie..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="23" selection-start="908" selection-end="917" vertical-scroll-proportion="-24.846153">
+          <folding>
+            <element signature="e#6#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="22" selection-start="703" selection-end="703" vertical-scroll-proportion="-10.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="27" selection-start="353" selection-end="353" vertical-scroll-proportion="0.2870929">
+          <folding>
+            <marker date="1368050234379" expanded="true" signature="223:264" placeholder="select * fro..movies2013..." />
+            <marker date="1368050234379" expanded="true" signature="497:763" placeholder="..." />
+            <marker date="1368050234379" expanded="true" signature="613:763" placeholder="..." />
+            <marker date="1368050234379" expanded="true" signature="669:763" placeholder="..." />
+            <marker date="1368050234379" expanded="true" signature="696:763" placeholder="..." />
+            <marker date="1368050234379" expanded="true" signature="722:763" placeholder="..." />
           </folding>
         </state>
       </provider>

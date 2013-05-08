@@ -7,18 +7,29 @@ require_once 'dbconnect.inc.php';
 session_start();
 $currentPage = "edit";
 
-if(!isset($_GET['id'])){
-	header("Location: index.php");
-	exit();
+/*
+ * Verify ID
+ * */
+if (!isset($_GET['id'])) {
+    $_SESSION['msg'] = "Missing ID!";
+    redirect("index.php");
 }
-
-$id = $_GET['id'];
-
-$idSql = mysql_real_escape_string($id);
-$sql = "select id, name, synopsis, picture, trailer from movies2013 where id='$id'";
+if(!is_numeric($_GET['id'])){
+    $_SESSION['msg'] = "ID not numerical or null!";
+    redirect("index.php");
+}elseif ($_GET['id'] < 1){
+    $_SESSION['msg'] = "ID negative!";
+    redirect("index.php");
+}
+//verify if there's a entry with id
+$id = mysql_real_escape_string($_GET['id']);
+$sql = "select * from movies2013 WHERE `id`='$id'";
 $result = mysql_query($sql);
-// mysql_num_rows($result)
-
+if(mysql_num_rows($result)<1){
+    $_SESSION['msg'] = "ID not found!";
+    redirect("index.php");
+}
+//take the row
 $row = mysql_fetch_assoc($result); 
 
 // View (OUTPUT STARTS HERE)

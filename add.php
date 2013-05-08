@@ -26,6 +26,7 @@ if(isset($_SESSION['movie_trailer'])){
 
 // View (OUTPUT STARTS HERE)
 include_once 'top.inc.php';
+echo $_COOKIE['test'];
 if (isset($_SESSION['msg'])) showMessage($_SESSION['msg']);
 ?>
 

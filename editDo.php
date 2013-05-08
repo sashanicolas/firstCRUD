@@ -6,14 +6,33 @@ require_once 'dbconnect.inc.php';
 // controller logic
 session_start();
 $msg = "";
+/*
+ * Verify ID
+ * */
 if (!isset($_POST['id'])) {
     // set a message for the user
     // tell them that something went wrong
     // redirect
     redirect("index.php");
 }
+if(!is_numeric($_POST['id'])){
+    $_SESSION['msg'] = "ID not found!";
+    redirect("index.php");
+}elseif ($_POST['id'] < 1){
+    redirect("index.php");
+}
+//verify if there's a entry with id
+$id = mysql_real_escape_string($_POST['id']);
+$sql = "select * from movies2013 WHERE `id`='$id'";
+$result = mysql_query($sql);
+if(mysql_num_rows($result)<1){
+    $_SESSION['msg'] = "ID not identified!";
+    redirect("index.php");
+}
 
-//================= picture upload
+/*
+ * Picture Upload
+ * */
 $allowedExts = array("gif", "jpeg", "jpg", "png");
 $extension = end(explode(".", $_FILES["file"]["name"]));
 if ((($_FILES["file"]["type"] == "image/gif")
@@ -60,6 +79,7 @@ $sql = sprintf("UPDATE movies2013 SET
 );
 
 $ok = mysql_query($sql);
+
 if ($ok) {
     $msg .= $_POST['title'] . " edited!";
 } else {
