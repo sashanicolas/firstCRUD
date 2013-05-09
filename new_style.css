@@ -1,0 +1,68 @@
+/*
+Design by Sasha Nicolas
+The Attic - College of IS&T
+University of Nebraska
+May 9th, 2013
+*/
+
+/* basics */
+body{
+    background-color: #E5E6DD;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header */
+#header {
+    text-align: center;
+}
+
+/* Menu */
+#menu {
+    background: #3C342E;
+    color: white;
+    height: 52px;
+}
+#menu li {
+    display: inline-block;
+}
+#menu ul {
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+#menu a {
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px 20px;
+    line-height: 52px;
+    text-decoration: none;
+}
+#menu a:hover, #menu .current_page_item a {
+    background: #DE5635;
+}
+
+/* Main-content */
+#msg {
+    background: khaki;
+    border: 2px solid gold;
+    padding: 10px;
+    margin: 10px 50px;
+    text-align: center;
+}
+#page-content {
+
+}
+#one-column {
+    padding: 10px;
+}
+#three-column {
+    padding: 10px;
+}
+
+/* Footer */
+#footer {
+
+}

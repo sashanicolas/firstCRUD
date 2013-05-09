@@ -17,7 +17,7 @@ if (isset($_SESSION['msg'])) showMessage($_SESSION['msg']);
 ?>
 
 		<!-- show 3 newest movies-->
-        <div id="three-column" class="container">
+        <div id="three-column">
 <?php
       $i=1;
       while(($row = mysql_fetch_assoc($result)) && $i<=3){
