@@ -20,22 +20,22 @@ if (isset($_SESSION['msg'])) showMessage($_SESSION['msg']);
 <?php
         $i = 1;
         while (($row = mysql_fetch_assoc($result)) && $i <= 3) {
-            ?>
+?>
         <div class="vertical-box">
                 <div class="vertical-poster">
                     <img src="images/<?php echo $row['picture']; ?>"
-                         width="324" height="500" alt="<?php echo htmlspecialchars($row['name']); ?>"/>
+                          alt="<?php echo htmlspecialchars($row['name']); ?>"/>
                 </div>
                 <div class="title">
-                    <h2><!-- title    --><?php echo htmlspecialchars($row['name']); ?></h2>
+                    <h2><?php echo htmlspecialchars($row['name']); ?></h2>
                 </div>
                 <div class="synopsis">
-                    <p> <!-- synopsis --><?php echo htmlspecialchars($row['synopsis']); ?></p>
+                    <p><?php echo htmlspecialchars($row['synopsis']); ?></p>
                 </div>
         </div>
 <?php       $i++;
         }
-        ?>
+?>
     </div>
 <?php
 include_once 'bottom.inc.php';
