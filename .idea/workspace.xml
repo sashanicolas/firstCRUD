@@ -4,14 +4,14 @@
     <list default="true" id="55b90b03-1b5a-4c52-81a3-32edc327db09" name="Default" comment="" />
     <ignored path="firstCRUD.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368543106003" ignored="false" />
+    <file path="/index.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368743972649" ignored="false" />
     <file path="/addDo.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368044782206" ignored="false" />
     <file path="db-console:/a1fee9df/195a46e3-f18a-4e47-a79e-23e3d15f5baf/" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1367956600543" ignored="false" />
     <file path="/a.dummy" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1367958570636" ignored="false" />
     <file path="/dbconnect.inc.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1367959084761" ignored="false" />
     <file path="/deleteDo.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368049572043" ignored="false" />
     <file path="/all.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368137618972" ignored="false" />
-    <file path="/style.css" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1367961173659" ignored="false" />
+    <file path="/style.css" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368827940243" ignored="false" />
     <file path="$PROJECT_DIR$/../trainingCss/layout.css" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1367964181344" ignored="false" />
     <file path="/layout.css" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1367964177414" ignored="false" />
     <file path="$PROJECT_DIR$/../trainingCss/index.html" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1367964030501" ignored="false" />
@@ -23,10 +23,12 @@
     <file path="/edit.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368198760496" ignored="false" />
     <file path="/editDo.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368047393677" ignored="false" />
     <file path="/test.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368545719213" ignored="false" />
-    <file path="/new_style.css" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368559004307" ignored="false" />
+    <file path="/new_style.css" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1369063136147" ignored="false" />
     <file path="/top.inc.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368558649919" ignored="false" />
     <file path="/bottom.inc.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368472834857" ignored="false" />
     <file path="/home.ctp" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368569820414" ignored="false" />
+    <file path="$PROJECT_DIR$/../myPage/index.php" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368743977197" ignored="false" />
+    <file path="$PROJECT_DIR$/../myPage/style.css" changelist="55b90b03-1b5a-4c52-81a3-32edc327db09" time="1368827944955" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
       <file leaf-file-name="top.inc.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/top.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="9" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
+            <state line="5" column="23" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,19 +91,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="new_style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/new_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="212" column="13" selection-start="3913" selection-end="3913" vertical-scroll-proportion="0.0">
+            <state line="83" column="17" selection-start="1608" selection-end="1608" vertical-scroll-proportion="0.21871345">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbconnect.inc.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dbconnect.inc.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dbconnect.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.020506635">
+            <state line="4" column="17" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,8 +132,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/top.inc.php" />
-        <option value="$PROJECT_DIR$/new_style.css" />
         <option value="$PROJECT_DIR$/dbconnect.inc.php" />
+        <option value="$PROJECT_DIR$/new_style.css" />
       </list>
     </option>
   </component>
@@ -203,18 +205,32 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../usingCake" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="firstCRUD" serverId="6c83f0c0-c9f5-4312-b2c8-e65443df66bc">
     <servers>
+      <server id="0eb60490-01d6-409e-99ea-168a7eed769d">
+        <serverdata />
+      </server>
+      <server id="32e90a05-b6b3-45c4-8bb9-3322bf763e29">
+        <serverdata />
+      </server>
+      <server id="4b7ba1b3-17a2-47bd-a70d-8275a4059429">
+        <serverdata />
+      </server>
       <server id="6c83f0c0-c9f5-4312-b2c8-e65443df66bc">
         <serverdata>
           <mappings>
@@ -312,13 +328,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1040" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18638574" sideWeight="0.6503973" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15559158" sideWeight="0.6708286" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26094005" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14991896" sideWeight="0.6708286" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34960273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -446,9 +463,7 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="561" column="9" selection-start="18895" selection-end="18895" vertical-scroll-proportion="0.09225092">
-          <folding />
-        </state>
+        <state line="561" column="9" selection-start="18895" selection-end="18895" vertical-scroll-proportion="0.09225092" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
@@ -472,23 +487,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dbconnect.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/top.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="9" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
+        <state line="5" column="23" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="13" selection-start="3913" selection-end="3913" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbconnect.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.020506635">
+        <state line="83" column="17" selection-start="1608" selection-end="1608" vertical-scroll-proportion="0.21871345">
           <folding />
         </state>
       </provider>
